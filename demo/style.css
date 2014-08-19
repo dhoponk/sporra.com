@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container-profile{
+	margin-left:40px;
+}
+
+.profile-left{
+	float:left;
+	font-weight:bold;
+}
+
+.profile-right{
+	float:left;
+	margin-left:30px;
+}
+
+.menu-tengah{
+	float:left;
+	margin-left:20px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.garis {
+    border-top: 2px solid #afbcc6;
+    border-bottom: 2px solid #eff2f6;
+    height: 0px;
+    margin-bottom: 20px;
+}
+
+
+.container-detail{
+	margin-left:40px;
+}
+
+.detail-left{
+	float:left;
+	font-weight:bold;
+}
+
+.detail-right{
+	float:left;
+	margin-left:30px;
+}
+
+.bg-batas {
+  background-color: #d9edf7;
+  text-align:center;
+  
+  height:30px;
+  font-size:20px;
+}
+
+.container.start{
+margin-top:20px;
+}
+
+.start-left
+{
+
+	font-weight:bold;
+}
+
+.start-reight
+{
+	
+	font-weight:bold;
+}
+
+.endorsment-left
+{
+	margin-left:5%;
+	width:100px;
+	margin-left:80px;
+	float: left;
+}
+
+.endorsment-reight
+{
+	margin-left:80px;
+	color:#FF0000;
+	font-weight:bold;
+}
+
+.recom-left
+{
+	margin-left:5%;
+	width:70px;
+	margin-left:80px;
+	float: left;
+}
+
+
+.recom-reight
+{
+	margin-left:80px;
+	font-weight:bold;
+}
+
+@font-face {
+    font-family: logoF;
+    src: url(MyriadPro-SemiboldCondIt.otf);
+	font-weight:bold;
+	font-size:30px;
+}
+#logo {
+	font-family:logoF;
+	color:#FFF;}
+
+
+/* Gradient transparent - color - transparent */
+		
+.style-two {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+.st-nm {
+	font-size: 9px;
+	margin: 5px;
+}
+.versus {margin: 103px 97px 111px 12px; font-size: 40px; font-weight: bold; font-family: helvetica; position: absolute;}
+.st-title-kanan {float: right;}
+.st-title-kiri {float: left;}
+.st-won { font-size: 30px; color: #ff7e00; font-weight: bold;}
+.search-mf {float: left; position: absolute; margin-left: 250px; margin-top: -25px;}
+.mt-badge {position: absolute; margin-left: 926px;
+margin-top: -20px;}
+.mf-friends {margin: 10px;}
+.mf-kanan{float: left;}
+.mf-kiri {float: left;}
+.srh{clear: both;}
+#mf-body{margin-right: 50px;}
+.gmbr img {width: 27px;}
+
+.home-kanan {float: left; margin-top: -5px; text-align: left; margin-left: 10px;}
+.ts-home{text-align: left; margin: 3px;}
+.bintang {width: 10px;}
+#hm-kanan img { width: 25px;}
+.hm-star img {width: 10px;}
+
+
+.message-item {
+margin-bottom: 25px;
+margin-left: 40px;
+position: relative;
+margin-top: 40px;
+}
+.message-item .message-inner {
+background: #fff;
+border: 1px solid #ddd;
+border-radius: 3px;
+padding: 10px;
+position: relative;
+}
+.message-item .message-inner:before {
+border-right: 10px solid #ddd;
+border-style: solid;
+border-width: 10px;
+color: rgba(0,0,0,0);
+content: "";
+display: block;
+height: 0;
+position: absolute;
+left: -20px;
+top: 6px;
+width: 0;
+}
+.message-item .message-inner:after {
+border-right: 10px solid #fff;
+border-style: solid;
+border-width: 10px;
+color: rgba(0,0,0,0);
+content: "";
+display: block;
+height: 0;
+position: absolute;
+left: -18px;
+top: 6px;
+width: 0;
+}
+.message-item:before {
+background: #fff;
+border-radius: 2px;
+bottom: -30px;
+box-shadow: 0 0 3px rgba(0,0,0,0.2);
+content: "";
+height: 100%;
+left: -30px;
+position: absolute;
+width: 3px;
+}
+.message-item:after {
+background: #fff;
+border: 2px solid #ccc;
+border-radius: 50%;
+box-shadow: 0 0 5px rgba(0,0,0,0.1);
+content: "";
+height: 15px;
+left: -36px;
+position: absolute;
+top: 10px;
+width: 15px;
+}
+.clearfix:before, .clearfix:after {
+content: " ";
+display: table;
+}
+.message-item .message-head {
+border-bottom: 1px solid #eee;
+margin-bottom: 8px;
+padding-bottom: 8px;
+}
+.message-item .message-head .avatar {
+margin-right: 20px;
+}
+.message-item .message-head .user-detail {
+overflow: hidden;
+}
+.message-item .message-head .user-detail h5 {
+font-size: 16px;
+font-weight: bold;
+margin: 0;
+}
+.message-item .message-head .post-meta {
+float: left;
+padding: 0 15px 0 0;
+}
+.message-item .message-head .post-meta >div {
+color: #333;
+font-weight: bold;
+text-align: right;
+}
+.post-meta > div {
+color: #777;
+font-size: 12px;
+line-height: 22px;
+}
+.message-item .message-head .post-meta >div {
+color: #333;
+font-weight: bold;
+text-align: right;
+}
+.post-meta > div {
+color: #777;
+font-size: 12px;
+line-height: 22px;
+}
+.message-item img {
+ min-height: 40px;
+ max-height: 40px;
+}    
+#venues img{ width: 100px;}
+        a.list-group-item {
+    height:auto;
+    min-height:220px;
+}
+a.list-group-item.active small {
+    color:#fff;
+}
+.stars {
+    margin:20px auto 1px;    
+}  
+.copyright {font-size: 11px; color: #9197a3; margin: 10px;}
